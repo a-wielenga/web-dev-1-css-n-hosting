@@ -49,7 +49,7 @@ img {
     margin: auto;
 
     /* Style the button to look nice */
-    background-color: black;
+    background-color: dodgerblue;
     color: white;
     border: none;
     padding: 10px;
@@ -58,11 +58,6 @@ img {
     font-weight: bold;
 }
 
-/* Buttons will normally be blue, but will change to red when hovered */
-button {
-    background-color: dodgerblue;
-  }
-   
-  button:hover {
+#click-me:hover {
     background-color: red;
   }
