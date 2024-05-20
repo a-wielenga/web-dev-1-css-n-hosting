@@ -4,7 +4,7 @@ body {
     background: linear-gradient(293deg, rgba(0, 40, 61, 1) 0%, rgba(154, 245, 206, 1) 100%);
 }
 
-#image-row {
+#image-row, #image-row-2 {
     /* Use flexbox to arrange the images in a row */
     display: flex;
     justify-content: center;
@@ -29,6 +29,18 @@ img {
 #img-C {
     border: 1px solid blue;
     filter: drop-shadow(5px 5px 0 rgb(218, 108, 19)) hue-rotate(180deg) drop-shadow(5px 5px 0 rgb(218, 108, 19));
+}
+
+#img-D {
+    filter: hue-rotate(90deg);
+}
+
+#img-E {
+    filter: saturate(30%);
+}
+
+#img-F {
+    filter: contrast(175%) brightness(200%);
 }
 
 #click-me {
