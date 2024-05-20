@@ -68,9 +68,13 @@ img {
     font-weight: bold;
 
     box-shadow: 2px 7px 5px rgb(21, 44, 66);
+
+    position: relative;
+    bottom: 10px;
 }
 
 #click-me:hover {
     background-color:rgb(44, 120, 196);
+    box-shadow: 10px 7px 5px rgb(21, 44, 66);
     transition: 0.5s;
 }
