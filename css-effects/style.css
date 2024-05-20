@@ -1,8 +1,10 @@
-body { 
-    margin: 0; /* Remove the default margin */
+body {
+    margin: 0;
+    /* Remove the default margin */
+    background: linear-gradient(293deg, rgba(0, 40, 61, 1) 0%, rgba(154, 245, 206, 1) 100%);
 }
 
-#image-row { 
+#image-row {
     /* Use flexbox to arrange the images in a row */
     display: flex;
     justify-content: center;
@@ -10,10 +12,23 @@ body {
     gap: 40px;
 }
 
-img { 
+img {
     /* Prevent images from exceeding the width of their parent */
     max-width: 100%;
     height: auto;
+}
+
+#img-A {
+    filter: contrast(250%) brightness(150%) opacity(5%);
+}
+
+#img-B {
+    filter: sepia(100%) opacity(40%);
+}
+
+#img-C {
+    border: 1px solid blue;
+    filter: drop-shadow(5px 5px 0 rgb(218, 108, 19)) hue-rotate(180deg) drop-shadow(5px 5px 0 rgb(218, 108, 19));
 }
 
 #click-me {
@@ -30,3 +45,12 @@ img {
     font-size: 2em;
     font-weight: bold;
 }
+
+/* Buttons will normally be blue, but will change to red when hovered */
+button {
+    background-color: dodgerblue;
+  }
+   
+  button:hover {
+    background-color: red;
+  }
