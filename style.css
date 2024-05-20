@@ -1,7 +1,13 @@
 body {
     margin: 0;
     /* Remove the default margin */
-    background: linear-gradient(293deg, rgba(0, 40, 61, 1) 0%, rgba(154, 245, 206, 1) 100%);
+    background: linear-gradient(293deg, rgba(0, 40, 61, 1) 0%, rgb(123, 182, 156) 100%);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 10px 5px rgb(21, 44, 66);
 }
 
 #image-row, #image-row-2 {
@@ -49,15 +55,18 @@ img {
     margin: auto;
 
     /* Style the button to look nice */
-    background-color: dodgerblue;
+    background-color: #2252d4;
     color: white;
     border: none;
     padding: 10px;
 
     font-size: 2em;
     font-weight: bold;
+
+    box-shadow: 2px 7px 5px rgb(21, 44, 66);
 }
 
 #click-me:hover {
-    transition: red 2s .5s;
-  }
+    background-color:rgb(44, 120, 196);
+    transition: 0.5s;
+}
